@@ -8,3 +8,4 @@
 
 ## Penggunaan Aplikasi
 - Akses halaman admin http://127.0.0.1:8000/admin
+- login admin@banksampah.test, pass: 123456
