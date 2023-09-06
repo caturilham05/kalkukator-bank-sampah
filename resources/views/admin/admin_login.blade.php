@@ -33,7 +33,7 @@
                         </button>
                     </div>
                 @endif
-                <form action="{{route('admin.login')}}" method="POST">
+                <form action="{{route('login')}}" method="POST">
                     @csrf
                     <div class="input-group mb-3">
                         <input type="text" class="form-control " name="email" placeholder="Input Email" autofocus required>

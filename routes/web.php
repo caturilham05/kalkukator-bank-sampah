@@ -18,7 +18,7 @@ use App\Http\Controllers\DashboardController;
 */
 
 Route::get('/admin', [AuthController::class, 'index'])->middleware('guest');
-Route::post('/admin/login', [AuthController::class, 'login'])->name('admin.login');
+Route::post('/admin', [AuthController::class, 'login'])->name('login');
 Route::post('/admin/logout', [AuthController::class, 'logout']);
 
 Route::middleware(['auth'])->group(function () {
